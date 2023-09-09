@@ -10,7 +10,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 #loading the model
-loaded_model=pickle.load(open('E:/Shreya/Internships/ProdigyInfotech/Task1_HousePrediction/WebApp on Render using Streamlit/House_model.sav','rb'))
+loaded_model=pickle.load(open('House_model.sav','rb'))
 
 #sidebar to navigate
 with st.sidebar:
